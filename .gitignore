@@ -1,0 +1,25 @@
+# Private game data and derived build output
+/dist/
+/build/
+/generated/
+/targets/
+/cache/
+/save/
+/evidence/
+/import/
+/prepared/
+*.nsp
+*.xci
+*.nsz
+*.xcz
+*.nca
+*.nso
+*.keys
+*.elf
+*.bin
+*.prx
+*.zip
+*.7z
+*.ttf
+*.otf
+__pycache__/

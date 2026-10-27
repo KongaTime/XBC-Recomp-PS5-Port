@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a reproducible problem with a tested build
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the known limitations first. There is no public binary download yet.
+        Never attach keys or game dumps. Review logs for personal information before sharing them.
+  - type: input
+    id: build
+    attributes:
+      label: Build or version
+      description: Which build were you testing?
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: PS5 firmware and homebrew setup
+      placeholder: Firmware, loader and mounting method
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include where you were in the game and your graphics settings.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log excerpt
+      description: Optional. Do not include keys, game data or private information.
+      render: text
