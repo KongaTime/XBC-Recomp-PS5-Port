@@ -44,10 +44,6 @@ Once an installable build is available:
 
 See the [setup guide](docs/SETUP.md) for file names, folder layout and preparation steps. Uncompressed NSP/PFS0 inputs are supported; XCI, NSZ and XCZ are not currently supported.
 
-## Before a public binary release
-
-The tested local executable includes generated game code. The current preparation step extracts and merges the supplied game files; it does not generate the executable's translation. A user-side generation/build or module workflow remains to be implemented for a release that excludes generated game code.
-
 Other remaining work includes replacing the private Windows font copies, making the build reproducible outside the development machine, and investigating a native Exit teardown error. See [status and limitations](docs/STATUS.md).
 
 ## Reporting problems
