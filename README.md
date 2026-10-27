@@ -4,8 +4,7 @@
 
 Maintained by [KongaTime](https://github.com/KongaTime).
 
-> **Status: experimental, in development.** Native gameplay has been tested on a PS5. This repository currently contains the project overview and documentation. No installable build, ZIP, or release binary is published here.
-
+> **Status: experimental, in development.** Native gameplay has been tested on a PS5. This repository currently contains the project overview and documentation.                                                                                      
 [Setup guide](docs/SETUP.md) · [Controls & graphics](docs/CONTROLS-AND-GRAPHICS.md) · [Status & limitations](docs/STATUS.md) · [Credits](docs/CREDITS.md)
 
 ## What the port offers
