@@ -31,14 +31,6 @@ The repository is a documentation landing page at present. No binary release, ZI
 - Native Exit produced a teardown SIGSYS diagnostic during testing. The process closed and saved settings survived relaunch, but clean shutdown still needs investigation.
 - The new touchpad Select/Minus mapping needs a dedicated physical-controller check after relaunch.
 
-## Work needed before an installable public release
-
-### Game translation distribution
-
-The development executable links locally generated game translation directly into `eboot.bin`. The preparation helper merges/extracts game data but does not generate this translation.
-
-The original Monado contribution rules exclude generated game code from its repository. Following that distribution model requires a user-side generation/build or module workflow. Merely excluding NSPs from a release does not remove translated game code from the executable.
-
 ### Fonts and build dependencies
 
 The private build uses Segoe UI font copies from the developer's Windows installation. These need replacement with fonts intended for redistribution.
